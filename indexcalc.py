@@ -2,7 +2,6 @@ import numpy as np
 from sympy.ntheory import factorint, primerange
 import math
 import time
-import ecc
 
 def factorBase(n):
     limit = int(3.38 * np.exp(0.5 * np.sqrt(np.log2(n) * np.log2(np.log2(n)))))
